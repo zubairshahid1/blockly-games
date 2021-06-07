@@ -82,7 +82,7 @@ Blockly.JavaScript['maze_moveForward'] = function(block) {
 };
 
 
-/////// Move Backward    Zubair
+/////// Move Backward 
 
 Blockly.Blocks['maze_moveBackward'] = {
   /**
@@ -113,12 +113,12 @@ Blockly.Blocks['maze_moveBackward'] = {
   }
 };
 Blockly.JavaScript['maze_moveBackward'] = function(block) {
-  // Generate JavaScript for moving backward zubair.
+  // Generate JavaScript for moving backward
   return 'moveBackward(\'block_id_' + block.id + '\');\n';
 };
 
 
-/// for delete
+/// for 
 
 Blockly.Blocks['maze_moveUp'] = {
   /**
@@ -138,18 +138,18 @@ Blockly.Blocks['maze_moveUp'] = {
           "alt": "*"
         }
       ],
-      //BlocklyGames.getMsg('Maze_moveForward'),
+
       "previousStatement": null,
       "nextStatement": null,
       "colour": "rgb(0, 176, 189)" ,
-      //Maze.Blocks.MOVEMENT_HUE,
+
       "tooltip": BlocklyGames.getMsg('Maze_moveUpTooltip')
     });
   
   }
 };
 Blockly.JavaScript['maze_moveUp'] = function(block) {
-  // Generate JavaScript for moving up zubair.
+  // Generate JavaScript for moving up 
   return 'turnLeft' + '(\'block_id_' + block.id + '\');\n' + 'moveForward(\'block_id_' + block.id + '\');\n';
 };
 
@@ -162,7 +162,7 @@ Blockly.Blocks['maze_moveDown'] = {
    */
   init: function() {
     this.jsonInit({
-      //"message0": 'E ',
+
       "message0": "S %1",
       "args0": [
         {
@@ -173,11 +173,11 @@ Blockly.Blocks['maze_moveDown'] = {
           "alt": "*"
         }
       ],
-      //BlocklyGames.getMsg('Maze_moveForward'),
+    
       "previousStatement": null,
       "nextStatement": null,
       "colour": "rgb(0, 176, 189)" ,
-      //Maze.Blocks.MOVEMENT_HUE,
+
       "tooltip": BlocklyGames.getMsg('Maze_moveDownTooltip')
     });
   
@@ -189,99 +189,6 @@ Blockly.JavaScript['maze_moveDown'] = function(block) {
   };
 
 /// for delete end
-
-// Blockly.Blocks['maze_turn'] = {
-//   /**
-//    * Block for turning left or right.
-//    * @this {Blockly.Block}
-//    */
-//   init: function() {
-//     var DIRECTIONS =
-//         [[BlocklyGames.getMsg('Maze_turnLeft'), 'turnLeft'],
-//          [BlocklyGames.getMsg('Maze_turnRight'), 'turnRight']];
-//     // Append arrows to direction messages.
-//     DIRECTIONS[0][0] += Maze.Blocks.LEFT_TURN;
-//     DIRECTIONS[1][0] += Maze.Blocks.RIGHT_TURN;
-//     this.setColour(Maze.Blocks.MOVEMENT_HUE);
-//     this.appendDummyInput()
-//         .appendField(new Blockly.FieldDropdown(DIRECTIONS), 'DIR');
-//     this.setPreviousStatement(true);
-//     this.setNextStatement(true);
-//     this.setTooltip(BlocklyGames.getMsg('Maze_turnTooltip'));
-//   }
-// };
-
-// Blockly.JavaScript['maze_turn'] = function(block) {
-//   // Generate JavaScript for turning left or right.
-//   var dir = block.getFieldValue('DIR');
-//   return dir + '(\'block_id_' + block.id + '\');\n';
-// };
-
-/// Zubair
-
-// Blockly.Blocks['maze_turnLeft'] = {
-//   /**
-//    * Block for turning left.
-//    * @this {Blockly.Block}
-//    */
-// init: function() {
-//   var DIRECTIONS =
-//       [[BlocklyGames.getMsg('Maze_turnLeft'), 'turnLeft']];
-//   // Append arrows to direction messages.
-//   DIRECTIONS[0][0] += Maze.Blocks.LEFT_TURN;
-//   this.setColour("rgb(0, 176, 189)");
-//   this.appendDummyInput()
-//       .appendField('S')
-//       .appendField(new Blockly.FieldDropdown(DIRECTIONS), 'DIR');
-//   this.setPreviousStatement(true);
-//   this.setNextStatement(true);
-//   this.setTooltip(BlocklyGames.getMsg('Maze_turnTooltip'));
-// }
-// };
-
-// Blockly.JavaScript['maze_turnLeft'] = function(block) {
-// // Generate JavaScript for turning left.
-// var dir = block.getFieldValue('DIR');
-// console.log(dir + '(\'block_id_' + block.id + '\');\n' + 'moveForward(\'block_id_' + block.id + '\');\n' );
-// return 'turnLeft' + '(\'block_id_' + block.id + '\');\n' + 'moveForward(\'block_id_' + block.id + '\');\n'; 
-// };
-
-// /// turn right
-
-// Blockly.Blocks['maze_turnRight'] = {
-//   /**
-//    * Block for turning right.
-//    * @this {Blockly.Block}
-//    */
-// init: function() {
-//   var DIRECTIONS =
-//       [[BlocklyGames.getMsg('Maze_turnRight'), 'turnRight']];
-//   // Append arrows to direction messages.
-//   DIRECTIONS[0][0] += Maze.Blocks.RIGHT_TURN;
-//   this.setColour("rgb(0, 176, 189)");
-//   this.appendDummyInput()
-//       .appendField('W')
-//       .appendField(new Blockly.FieldDropdown(DIRECTIONS), 'DIR');
-//   this.setPreviousStatement(true);
-//   this.setNextStatement(true);
-//   this.setTooltip(BlocklyGames.getMsg('Maze_turnTooltip'));
-// }
-// };
-
-// Blockly.JavaScript['maze_turnRight'] = function(block) {
-// // Generate JavaScript for turning right.
-// var dir = block.getFieldValue('DIR');
-// return dir + '(\'block_id_' + block.id + '\');\n' + 'moveForward(\'block_id_' + block.id + '\');\n';
-// };
-
-
-/// End Zubair
-
-
-
-
-
-
 
 Blockly.Blocks['maze_if'] = {
   /**
