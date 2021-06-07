@@ -1,0 +1,681 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+The system cannot find the path specified.
+Makefile:140: *** Please install `svn`.  Stop.
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jun 06 12:42:11 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-15.0.1
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 13)
+REQUIRED_BINS = svn unzip wget java python sed
+# environment
+USERPROFILE = C:\Users\ZUBAIR SHAHID
+# environment
+LOCALAPPDATA = C:\Users\ZUBAIR SHAHID\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e3bfc14c-ebb4-4652-81cd-8317d6594f05-sock
+# environment
+VSCODE_CWD = C:\Users\ZUBAIR SHAHID\Desktop\blockly-games
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4188_URRCRNWSLOZECJIZ
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\ZUBAIR SHAHID\OneDrive - Higher Education Commission
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'Makefile', line 9)
+APP_ENGINE_THIRD_PARTY = appengine/third-party
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\ZUBAIR~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\ZUBAIR SHAHID\OneDrive - Higher Education Commission
+# makefile (from 'Makefile', line 6)
+ALL_JSON = {./,index,puzzle,maze,bird,turtle,movie,music,pond/docs,pond,pond/tutor,pond/duck,gallery}
+# makefile
+CURDIR := c:/Users/ZUBAIR SHAHID/Desktop/blockly-games
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 11)
+SOY_EXTRACTOR = java -jar third-party-downloads/SoyMsgExtractor.jar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 4188
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+C_EM64T_REDIST11 = C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\ZUBAIR SHAHID\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\ZUBAIR SHAHID
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\ZUBAIR SHAHID\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ZUBAIR SHAHID\AppData\Local\Programs\Python\Python39\;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\nodejs\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\composer;C:\MinGW\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\ZUBAIR SHAHID\AppData\Roaming\npm;C:\Users\ZUBAIR SHAHID\AppData\Local\Microsoft\WindowsApps;C:\Users\ZUBAIR SHAHID\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\ZUBAIR SHAHID\AppData\Local\Microsoft\WindowsApps;C:\Users\ZUBAIR SHAHID\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\ZUBAIR SHAHID\AppData\Roaming\Composer\vendor\bin;C:\MinGW\bin;
+# environment
+COMPUTERNAME = LAPTOP-A03SPECO
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132645441824986910
+# makefile (from 'Makefile', line 5)
+USER_APPS = {index,puzzle,maze,bird,turtle,movie,music,pond/docs,pond/tutor,pond/duck,gallery}
+# environment
+LOGONSERVER = \\LAPTOP-A03SPECO
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = ZUBAIR SHAHID
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 10)
+SOY_COMPILER = java -jar third-party-downloads/SoyToJsSrcCompiler.jar --shouldProvideRequireSoyNamespaces --isUsingIjData
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (from 'Makefile', line 7)
+ALL_TEMPLATES = appengine/template.soy,appengine/index/template.soy,appengine/puzzle/template.soy,appengine/maze/template.soy,appengine/bird/template.soy,appengine/turtle/template.soy,appengine/movie/template.soy,appengine/music/template.soy,appengine/pond/docs/template.soy,appengine/pond/template.soy,appengine/pond/tutor/template.soy,appengine/pond/duck/template.soy,appengine/gallery/template.soy
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-A03SPECO
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-A03SPECO
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\ZUBAIR SHAHID\AppData\Roaming\Code\CachedData\054a9295330880ed74ceaedda236253b4f39a335
+# environment
+APPDATA = C:\Users\ZUBAIR SHAHID\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = C:\Users\ZUBAIR SHAHID
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\ZUBAIR~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\6799a0cfe6a1d098ae34bac4708d9a2f-1.56.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 9e0a
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=10/143=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/ZUBAIR SHAHID/Desktop/blockly-games, mtime 1622965330): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+common-en:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(SOY_COMPILER) --outputPathFormat appengine/generated/en/soy.js --srcs appengine/template.soy
+
+pond-common-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	$(SOY_COMPILER) --outputPathFormat appengine/pond/generated/en/soy.js --srcs appengine/pond/template.soy
+
+music: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+puzzle-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	$(SOY_COMPILER) --outputPathFormat appengine/puzzle/generated/en/soy.js --srcs appengine/puzzle/template.soy
+	python build-app.py puzzle en
+
+maze: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-06 11:58:53
+#  File has been updated.
+#  Successfully updated.
+
+languages: soy-to-json
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 129):
+	@for app in $(ALL_JSON); do \
+	  echo "Generating JS from appengine/$$app/template.soy"; \
+	  mkdir -p appengine/$$app/generated; \
+	  i18n/json_to_js.py --output_dir appengine/$$app/generated --template appengine/$$app/template.soy json/*.json; \
+	  echo; \
+	done
+	@for app in $(USER_APPS); do \
+	  python build-app.py $$app; \
+	done
+
+clean-deps:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 195):
+	rm -rf $(APP_ENGINE_THIRD_PARTY)
+	rm -rf third-party-downloads
+
+pond-duck: pond-common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 101):
+	@echo "Generating JS from appengine/pond/duck/template.soy"
+	mkdir -p appengine/pond/duck/generated;
+	i18n/json_to_js.py --output_dir appengine/pond/duck/generated --template appengine/pond/duck/template.soy json/*.json;
+	python build-app.py pond/duck
+	@echo
+
+pond-docs-en:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	mkdir -p appengine/pond/generated/en/
+	$(SOY_COMPILER) --outputPathFormat appengine/pond/docs/generated/en/soy.js --srcs appengine/pond/docs/template.soy
+	python build-app.py pond/docs en
+
+clean: clean-languages clean-deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gallery: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+turtle: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+music-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	$(SOY_COMPILER) --outputPathFormat appengine/music/generated/en/soy.js --srcs appengine/music/template.soy
+	python build-app.py music en
+
+genetics-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	$(SOY_COMPILER) --outputPathFormat appengine/genetics/generated/en/soy.js --srcs appengine/genetics/template.soy
+	python build-app.py genetics en
+
+bird-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	$(SOY_COMPILER) --outputPathFormat appengine/bird/generated/en/soy.js --srcs appengine/bird/template.soy
+	python build-app.py bird en
+
+pond-duck-en: pond-common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	$(SOY_COMPILER) --outputPathFormat appengine/pond/duck/generated/en/soy.js --srcs appengine/pond/duck/template.soy
+	python build-app.py pond/duck en
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+pond-docs: pond-common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
+	@echo "Generating JS from appengine/pond/docs/template.soy"
+	mkdir -p appengine/pond/docs/generated;
+	i18n/json_to_js.py --output_dir appengine/pond/docs/generated --template appengine/pond/docs/template.soy json/*.json;
+	python build-app.py pond/docs
+	@echo
+
+all: deps languages
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+soy-to-json:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 120):
+	@echo "Converting Soy files to JSON for Translatewiki."
+	@# Create extracted_msgs.xlf with all messages from all soy files.
+	$(SOY_EXTRACTOR) --outputFile extracted_msgs.xlf --srcs $(ALL_TEMPLATES)
+	@# Creates json/en.json, json/qqq.json, json/keys.json.
+	@# Deletes extracted_msgs.xlf
+	i18n/xliff_to_json.py --xlf extracted_msgs.xlf --templates $(ALL_TEMPLATES)
+	@echo
+
+index: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+pond-tutor-en: pond-common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	$(SOY_COMPILER) --outputPathFormat appengine/pond/tutor/generated/en/soy.js --srcs appengine/pond/tutor/template.soy
+	python build-app.py pond/tutor en
+
+pond-tutor: pond-common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	@echo "Generating JS from appengine/pond/tutor/template.soy"
+	mkdir -p appengine/pond/tutor/generated;
+	i18n/json_to_js.py --output_dir appengine/pond/tutor/generated --template appengine/pond/tutor/template.soy json/*.json;
+	python build-app.py pond/tutor
+	@echo
+
+maze-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 31):
+	$(SOY_COMPILER) --outputPathFormat appengine/maze/generated/en/soy.js --srcs appengine/maze/template.soy
+	python build-app.py maze en
+
+bird: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+movie: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+deps:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has not been updated.
+# automatic
+# @ := deps
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  recipe to execute (from 'Makefile', line 140):
+	$(foreach bin,$(REQUIRED_BINS),\
+	    $(if $(shell command -v $(bin) 2> /dev/null),$(info Found `$(bin)`),$(error Please install `$(bin)`)))
+	mkdir -p third-party-downloads
+	@# All following commands are in third-party-downloads, use backslashes to keep them on the same line as the cd command.
+	cd third-party-downloads; \
+	svn checkout https://github.com/google/closure-library/trunk/closure/bin/build build; \
+	wget -N https://dl.google.com/closure-templates/closure-templates-for-javascript-latest.zip; \
+	unzip -o closure-templates-for-javascript-latest.zip SoyToJsSrcCompiler.jar; \
+	wget -N https://dl.google.com/closure-templates/closure-templates-msg-extractor-latest.zip; \
+	unzip -o closure-templates-msg-extractor-latest.zip SoyMsgExtractor.jar; \
+	wget -N https://unpkg.com/google-closure-compiler-java/compiler.jar; \
+	mv -f compiler.jar closure-compiler.jar; \
+	chmod +x build/closurebuilder.py
+	mkdir -p $(APP_ENGINE_THIRD_PARTY)
+	wget -N https://unpkg.com/@babel/standalone@7.6.4/babel.min.js
+	mv babel.min.js $(APP_ENGINE_THIRD_PARTY)/
+	svn checkout --force https://github.com/ajaxorg/ace-builds/trunk/src-min-noconflict/ $(APP_ENGINE_THIRD_PARTY)/ace
+	mkdir -p $(APP_ENGINE_THIRD_PARTY)/blockly
+	svn checkout https://github.com/google/blockly/trunk/blocks/ $(APP_ENGINE_THIRD_PARTY)/blockly/blocks
+	svn checkout https://github.com/google/blockly/trunk/core/ $(APP_ENGINE_THIRD_PARTY)/blockly/core
+	svn checkout https://github.com/google/blockly/trunk/externs/ $(APP_ENGINE_THIRD_PARTY)/blockly/externs
+	svn checkout https://github.com/google/blockly/trunk/generators/ $(APP_ENGINE_THIRD_PARTY)/blockly/generators
+	svn checkout https://github.com/google/blockly/trunk/media/ $(APP_ENGINE_THIRD_PARTY)/blockly/media
+	svn checkout https://github.com/google/blockly/trunk/msg/ $(APP_ENGINE_THIRD_PARTY)/blockly/msg
+	svn checkout https://github.com/CreateJS/SoundJS/trunk/lib/ $(APP_ENGINE_THIRD_PARTY)/SoundJS
+	cp third-party/base.js $(APP_ENGINE_THIRD_PARTY)/
+	cp third-party/soyutils.js $(APP_ENGINE_THIRD_PARTY)/
+	cp -R third-party/soundfonts $(APP_ENGINE_THIRD_PARTY)/
+	@# Blockly's externs include extra files we don't want.
+	rm -f $(APP_ENGINE_THIRD_PARTY)/blockly/externs/block-externs.js
+	rm -f $(APP_ENGINE_THIRD_PARTY)/blockly/externs/generator-externs.js
+	@# Blockly's date field needs Closure.  But we don't use it.
+	rm -f $(APP_ENGINE_THIRD_PARTY)/blockly/core/field_date.js
+	svn checkout https://github.com/NeilFraser/JS-Interpreter/trunk/ $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter
+	@# Remove @license tag so compiler will strip Google's license.
+	sed 's/@license//' $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/interpreter.js > $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/interpreter_.js
+	@# Compile JS-Interpreter using SIMPLE_OPTIMIZATIONS because the Music game needs to mess with the stack.
+	java -jar third-party-downloads/closure-compiler.jar\
+	 --language_out ECMASCRIPT5_STRICT\
+	 --js $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/acorn.js\
+	 --js $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/interpreter_.js\
+	 --js_output_file $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/compressed.js
+	rm $(APP_ENGINE_THIRD_PARTY)/JS-Interpreter/interpreter_.js
+
+movie-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	$(SOY_COMPILER) --outputPathFormat appengine/movie/generated/en/soy.js --srcs appengine/movie/template.soy
+	python build-app.py movie en
+
+puzzle: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@echo "Generating JS from appengine/$@/template.soy"
+	mkdir -p appengine/$@/generated;
+	i18n/json_to_js.py --output_dir appengine/$@/generated --template appengine/$@/template.soy json/*.json;
+	python build-app.py $@
+	@echo
+
+index-en:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	mkdir -p appengine/generated/en/
+	$(SOY_COMPILER) --outputPathFormat appengine/index/generated/en/soy.js --srcs appengine/index/template.soy
+	python build-app.py index en
+
+en: index-en puzzle-en maze-en bird-en turtle-en movie-en music-en pond-docs-en pond-tutor-en pond-duck-en genetics-en gallery-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gallery-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 68):
+	$(SOY_COMPILER) --outputPathFormat appengine/gallery/generated/en/soy.js --srcs appengine/gallery/template.soy
+	python build-app.py gallery en
+
+.PHONY: deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean-languages:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 191):
+	rm -rf appengine/$(ALL_JSON)/generated
+	rm -f json/keys.json
+
+pond-common: common
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 108):
+	@echo "Generating JS from appengine/pond/template.soy"
+	mkdir -p appengine/pond/generated;
+	i18n/json_to_js.py --output_dir appengine/pond/generated --template appengine/pond/template.soy json/*.json;
+	@echo
+
+common: soy-to-json
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 114):
+	@echo "Generating JS from appengine/template.soy"
+	mkdir -p appengine/generated;
+	i18n/json_to_js.py --output_dir appengine/generated --template appengine/template.soy json/*.json;
+	@echo
+
+turtle-en: common-en
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	$(SOY_COMPILER) --outputPathFormat appengine/turtle/generated/en/soy.js --srcs appengine/turtle/template.soy
+	python build-app.py turtle en
+
+# files hash-table stats:
+# Load=39/1024=4%, Rehash=0, Collisions=0/95=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 53 / storage = 475 B / avg = 8 B
+# current buf: size = 8174 B / used = 475 B / count = 53 / avg = 8 B
+
+# strcache performance: lookups = 130 / hit rate = 59%
+# hash-table stats:
+# Load=53/8192=1%, Rehash=0, Collisions=0/130=0%
+# Finished Make data base on Sun Jun 06 12:42:11 2021
+
+ 
